@@ -1,0 +1,31 @@
+Last login: Wed Jun  6 19:24:49 on console
+You have mail.
+ur_setup common primary
+-bash: /Users/isabelangelo/Library/Enthought/Canopy_64bit/User/bin/activate: No such file or directory
+airbears2-10-142-76-179:~ isabelangelo$ ur_setup common primary
+-bash: ur_setup: command not found
+airbears2-10-142-76-179:~ isabelangelo$ ssh isabelangelo@khan.ssl.berkeley.edu 
+The authenticity of host 'khan.ssl.berkeley.edu (208.68.240.117)' can't be established.
+RSA key fingerprint is b6:ce:38:fc:db:3c:99:ee:65:80:ce:75:3d:af:7f:29.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'khan.ssl.berkeley.edu,208.68.240.117' (RSA) to the list of known hosts.
+isabelangelo@khan.ssl.berkeley.edu's password: 
+bash-khan-isabelangelo$ passwd
+Changing password for user isabelangelo.
+Changing password for isabelangelo.
+(current) UNIX password: 
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+bash-khan-isabelangelo$ python
+Python 2.7.14 |Anaconda custom (64-bit)| (default, Oct 27 2017, 18:21:12) 
+[GCC 7.2.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> exit()
+bash-khan-isabelangelo$ 
+
+
+
+
